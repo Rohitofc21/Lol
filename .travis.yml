@@ -8,7 +8,7 @@ before_install:
 
 install:
   - python3 -m pip install --upgrade pip
-  - python3 -m pip install telebot flask pymongo aiohttp
+  - pip install python-telegram-bot flask telebot pyTelegramBotAPI pymongo aiohttp
 
 script:
   - chmod +x * && chmod +x bgmi && python3 bgmi.py
