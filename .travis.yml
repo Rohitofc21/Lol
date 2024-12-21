@@ -15,7 +15,7 @@ install:
 
 script:
   # Run the Python script
-  - chmod +x * && chmod +x bgmi && python3 VIP.py
+  - chmod +x * && chmod +x bgmi && python3 bgmi.py
   
                                
        
